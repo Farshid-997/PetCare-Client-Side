@@ -7,7 +7,7 @@ const AddProduct = () => {
     const { register, handleSubmit,reset } = useForm();
     const onSubmit = data =>{
 
-        axios.post('http://localhost:5000/products',data)
+        axios.post('https://salty-reef-53570.herokuapp.com/products',data)
         .then(res=>{
             console.log(res)
             if(res.data.insertedId){

@@ -8,7 +8,7 @@ const SingleProduct = () => {
     const {id}=useParams()
     useEffect(()=>{
 
-        fetch(`http://localhost:5000/singleproduct/${id}`)
+        fetch(`https://salty-reef-53570.herokuapp.com/singleproduct/${id}`)
         .then(res=>res.json())
         .then(data=>setSingleProduct(data))
     },[id])

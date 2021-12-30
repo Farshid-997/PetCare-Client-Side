@@ -7,7 +7,7 @@ const BookAppointment = () => {
     const { register, handleSubmit,reset } = useForm();
     const onSubmit = data =>{
 
-       axios.post('http://localhost:5000/bookings',data)
+       axios.post('https://salty-reef-53570.herokuapp.com/bookings',data)
        .then(res=>{
         console.log(res)
         if(res.data.insertedId){
