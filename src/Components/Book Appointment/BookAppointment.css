@@ -1,0 +1,14 @@
+.book-doctor form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-doctor form input,
+textarea,
+select {
+  width: 50%;
+  padding: 5px;
+
+  margin-bottom: 10px;
+}
