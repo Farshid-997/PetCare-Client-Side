@@ -7,24 +7,30 @@ import { Link } from 'react-router-dom';
 const Appointment = () => {
     const bg={
         background:`url(${img1})`,
-        marginTop:175,
+        marginTop:110,
         backgroundColor:'rgba(20,40,30,0.8)',
-backgroundBlendMode:'darken,luminosity'
+backgroundBlendMode:'darken,luminosity',
+marginBottom:20
         
     }
     return (
-        <Container style={bg} className='appoint' >
+        <>
+         <h1 style={{marginTop:'105px'}}> <span  style={{color:'blue',fontSize:'2rem',fontWeight:'bold'}}>Book The</span> <span  style={{color:'red',fontSize:'2rem',fontWeight:'bold'}}>Appointment!!</span> </h1>
+         <hr className='w-50 mx-auto mb-2 mt-0 ' style={{color:'blue'}}/>
+          <div style={bg} className='appoint'  >
           
-    <img src={img2}  style={{width:400,marginTop:'-120px'}} alt="" />
-    <div>
-    <h3>Appoint Them!</h3>
-    <Link to='/bookappointment'>
-    <Button variant="success">Appoint The Doctors!!Click Here</Button>
-    </Link>
-  
-    </div>
- 
-        </Container>
+          <img src={img2}  style={{width:400,marginTop:'-120px'}} alt="" />
+          <div>
+          <h3 style={{color:'white'}}>Appoint Them!</h3>
+          <Link to='/bookappointment'>
+          <Button variant="success">Appoint The Doctors!!Click Here</Button>
+          </Link>
+        
+          </div>
+       
+              </div>
+        </>
+      
     );
 };
 

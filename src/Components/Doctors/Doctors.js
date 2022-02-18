@@ -14,7 +14,7 @@ const Doctors = () => {
     },[])
     return (
         <div>
-               <h1> <span style={{'color':'blue'}}>Our</span>Doctors!!</h1>
+               <h1>Our Doctors!!</h1>
            
            <Container className='cnt' >
            <Row xs={1} md={3} className="g-5">

@@ -16,8 +16,8 @@ const [products,setProducts]=useState([])
    
     return (
         <div >
-            <h1> <span style={{'color':'blue'}}>Pet</span> For Sell!!</h1>
-           
+            <h1> <span className="span1" style={{color:'blue',fontSize:'2rem',fontWeight:'bold'}}>Pet</span> <span className="span2" style={{color:'red',fontSize:'2rem',fontWeight:'bold'}}>For Sell!!</span> </h1>
+            <hr className='w-50 mx-auto mb-2 mt-0' />
            <Container className='cnt' >
            <Row xs={1} md={3} className="g-5">
                 {

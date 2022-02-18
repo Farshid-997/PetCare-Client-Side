@@ -1,0 +1,12 @@
+.header1 {
+  margin-bottom: 350px;
+}
+.letter:hover {
+  color: rgba(230, 69, 69, 0.774);
+}
+.letter2:hover {
+  color: rgba(0, 0, 255, 0.555);
+}
+.letter1:hover {
+  color: black;
+}

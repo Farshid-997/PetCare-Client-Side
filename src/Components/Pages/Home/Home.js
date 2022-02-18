@@ -1,5 +1,6 @@
 import React from 'react';
 import Appointment from '../../Appointment/Appointment';
+import Review from '../../Reviews/Review';
 
 
 
@@ -14,7 +15,7 @@ const Home = () => {
           
             <Products></Products>
             <Appointment></Appointment>
-           
+           <Review></Review>
         </div>
     );
 };
